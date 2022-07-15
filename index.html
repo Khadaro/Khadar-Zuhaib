@@ -4,26 +4,139 @@
 <head>
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/baf7e9f545.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-  <h1>Hello World! We are Software Developers of the World</h1>
-  <!--
+  <nav>
+    <!-- navbar -->
 
-    Hello Camper!
+    <div id="navbar">
+      <h1 class="logo">My Portfolio</h1>
+      <ul>
+        <li><a href="#welcome-section">About Me</a> </li>
+        <li><a href="#projects">Work Experience</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+  <!-- Welcome Section-->
+  <div class="hero bg-image" id="welcome-section" style="background-image: url(./images/hero-bg.jpg);">
+    <div class="overlay"></div>
+    <div class="hero-content">
 
-    - The freeCodeCamp Team
+      <h1 class="hero-title">Hey I am Zuhaib Amjad</h1>
+      <h4>A Web Developer</h4>
 
-    -->
+    </div>
+  </div>
+  <!-- welcome section -->
+
+  <!-- Projects section -->
+  <div id="projects" class="project">
+    <h1 class="project-title">These are some of my projects</h1>
+    <div class="cards">
+      <div class="portfolio-card">
+        <div class="portfolio-img">
+          <img src="./images/work-1.jpg" alt="">
+        </div>
+        <div class="portfolio-info">
+          <p>
+            <a href="">Countdown</a> <br>
+            <small><span class="text-info">Web design</span> / 15 july.2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-img">
+          <img src="./images/work-2.jpg" alt="">
+        </div>
+        <div class="portfolio-info">
+          <p>
+            <a href="">Calculator</a> <br>
+            <small><span class="text-info">Web design</span> / 15 july.2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-img">
+          <img src="./images/work-3.jpg" alt="">
+        </div>
+        <div class="portfolio-info">
+          <p>
+            <a href="">To do list</a> <br>
+            <small><span class="text-info">Web design</span> / 15 july.2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-img">
+          <img src="./images/work-4.jpg" alt="">
+        </div>
+        <div class="portfolio-info">
+          <p>
+            <a href="">Stop Watch</a> <br>
+            <small><span class="text-info">Web design</span> / 15 july.2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-img">
+          <img src="./images/work-5.jpg" alt="">
+        </div>
+        <div class="portfolio-info">
+          <p>
+            <a href="">Analogue Work</a> <br>
+            <small><span class="text-info">Web design</span> / 15 july.2022</small>
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-img">
+          <img src="./images/work-6.jpg" alt="">
+        </div>
+        <div class="portfolio-info">
+          <p>
+            <a href="">Digital Clock</a> <br>
+            <small><span class="text-info">Web design</span> / 15 july.2022</small>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- projects ends -->
+
+  <!-- Contact me -->
+  <div id="contact">
+    <h1>Let's work together</h1>
+    <h6>how do you take your coffee?</h6>
+    <div class="icons">
+      <div class="ico"><i class="fa-brands fa-facebook"></i> <span> Facebook </span></div>
+      <div class="ico"><i class="fa-brands fa-twitter"></i> <span> Twitter </span></div>
+      <div class="ico"><i class="fa-brands fa-github"></i> <span> <a href="https://github.com/Zuhaib042">GitHub</a>
+        </span></div>
+      <div class="ico"><i class="fa-solid fa-at"></i> <span> Email me </span></div>
+      <div class="ico"><i class="fa-solid fa-mobile-screen"></i> <span> Call me </span></div>
+    </div>
+  </div>
+  <!-- contact me ends -->
+
+  <!-- Hello Camper!
+
+  For now, the test suite only works in Chrome!
+  Please read the README below in the JS Editor before beginning.
+  Feel free to delete this message once you have read it.
+  Good luck and Happy Coding!
+
+  - The freeCodeCamp Team -->
+
+
   <script src="js/index.js"></script>
 </body>
 
